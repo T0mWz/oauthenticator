@@ -37,7 +37,7 @@ class GenericOAuthenticator(OAuthenticator):
         config=True,
         help="Service name for GenericOAuth2 connect button, e.g. My College"
     )
-    
+
     login_handler = GenericLoginHandler
 
     userdata_url = Unicode(
